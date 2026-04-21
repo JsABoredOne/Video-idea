@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Señors Pizza — 100-Idea Instagram Content Strategy</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--r:#D72B2B;--o:#F07030;--c:#F5EFE0;--k:#0F0C0A;--d:#1A1410;--g:#E8C84A;--m:#7A6F62;--cd:#1E1812;--b:#2E2620}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--k);color:var(--c);font-family:'Archivo',sans-serif;font-size:14px;line-height:1.6;overflow-x:hidden}
+/* HERO */
+.hero{background:var(--r);padding:70px 40px 50px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:"🍕";position:absolute;font-size:280px;opacity:.06;top:-40px;right:-30px;transform:rotate(-20deg);pointer-events:none}
+.ey{font-size:11px;letter-spacing:5px;text-transform:uppercase;color:var(--g);margin-bottom:14px}
+.hero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(48px,10vw,100px);line-height:.95;color:#fff;letter-spacing:2px}
+.hero h1 span{color:var(--g)}
+.hs{margin:16px auto 0;max-width:560px;font-size:15px;color:rgba(255,255,255,.82)}
+.hm{display:flex;justify-content:center;gap:28px;margin-top:32px;flex-wrap:wrap}
+.hmi strong{display:block;font-family:'Bebas Neue',sans-serif;font-size:38px;color:var(--g);line-height:1}
+.hmi span{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.6)}
+/* NAV */
+nav{background:var(--d);border-bottom:1px solid var(--b);position:sticky;top:0;z-index:100;overflow-x:auto;white-space:nowrap}
+nav ul{list-style:none;display:inline-flex;padding:0 24px}
+nav a{display:block;padding:14px 18px;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--m);text-decoration:none;border-bottom:3px solid transparent;transition:.2s}
+nav a:hover{color:var(--c);border-color:var(--o)}
+/* SECTION */
+.sh{padding:50px 36px 24px;border-top:3px solid var(--b);display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:end;max-width:1200px;margin:0 auto}
+.sn{font-family:'Bebas Neue',sans-serif;font-size:80px;line-height:1;color:var(--b)}
+.st{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--o);font-weight:700;margin-bottom:4px}
+.stitle{font-family:'Bebas Neue',sans-serif;font-size:clamp(28px,5vw,56px);line-height:1;color:var(--c)}
+.sdesc{margin-top:6px;color:var(--m);font-size:12px;max-width:480px}
+/* GRID */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:2px;padding:0 2px 2px}
+/* CARD */
+.card{background:var(--cd);border:1px solid var(--b);padding:24px;transition:background .15s,transform .15s}
+.card:hover{background:#231e17;transform:translateY(-2px);z-index:2;box-shadow:0 10px 32px rgba(0,0,0,.5)}
+.cn{font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:3px;color:var(--m);margin-bottom:8px}
+.ch{font-family:'Bebas Neue',sans-serif;font-size:20px;line-height:1.15;color:var(--c);letter-spacing:.5px;margin-bottom:4px}
+.ch em{color:var(--o);font-style:normal}
+.badge{display:inline-block;font-size:9px;font-weight:900;letter-spacing:2px;text-transform:uppercase;padding:2px 7px;border-radius:2px;margin-bottom:10px}
+.bv{background:var(--r);color:#fff}
+.bs{background:var(--g);color:var(--k)}
+.bd{background:var(--o);color:var(--k)}
+.bc{background:#8B5CF6;color:#fff}
+.div{height:1px;background:var(--b);margin:13px 0}
+.fl{margin-bottom:9px}
+.lb{font-size:9px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--o);margin-bottom:2px}
+.fv{font-size:12px;color:rgba(245,239,224,.82);line-height:1.5}
+.fv.hi{color:var(--g);font-weight:700}
+.pill{display:inline-block;background:rgba(215,43,43,.18);border:1px solid rgba(215,43,43,.3);color:#f5a0a0;font-size:10px;padding:2px 7px;border-radius:20px;font-weight:600;letter-spacing:.5px;margin-right:2px}
+.cap{background:rgba(255,255,255,.04);border-left:3px solid var(--o);padding:7px 11px;font-size:12px;font-style:italic;color:var(--c);line-height:1.5}
+/* FOOTER */
+footer{background:var(--r);text-align:center;padding:44px 40px;margin-top:60px}
+footer h2{font-family:'Bebas Neue',sans-serif;font-size:48px;color:#fff;letter-spacing:2px}
+footer p{color:rgba(255,255,255,.75);font-size:14px;margin-top:8px}
+@media(max-width:600px){.hero{padding:44px 18px 36px}.sh{padding:32px 18px 18px;grid-template-columns:1fr}.sn{font-size:44px}.grid{grid-template-columns:1fr}.card{padding:18px}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="ey">Instagram Content Strategy 2024–2025</div>
+  <h1>Señors<br><span>Pizza</span></h1>
+  <p class="hs">100 high-octane content ideas engineered to build a cult-like following in London, Ontario — and make noise everywhere else.</p>
+  <div class="hm">
+    <div class="hmi"><strong>100</strong><span>Video Ideas</span></div>
+    <div class="hmi"><strong>5</strong><span>Categories</span></div>
+    <div class="hmi"><strong>40+</strong><span>Series Concepts</span></div>
+    <div class="hmi"><strong>15+</strong><span>Debate Triggers</span></div>
+    <div class="hmi"><strong>Gen Z</strong><span>Primary Audience</span></div>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#cat1">🔥 Viral / Chaos</a></li>
+    <li><a href="#cat2">🍁 Local / Relatable</a></li>
+    <li><a href="#cat3">📖 Story / Series</a></li>
+    <li><a href="#cat4">💬 Controversy / Debate</a></li>
+    <li><a href="#cat5">🎭 Brand Building</a></li>
+  </ul>
+</nav>
+
+<!-- ── HELPER MACRO (repeated card structure via inline HTML) ── -->
+
+<!-- ═══ CAT 1: VIRAL / CHAOS ═══ -->
+<section id="cat1">
+<div class="sh"><div class="sn">01</div><div><div class="st">Category One</div><div class="stitle">Viral Hook &amp; Chaos Content</div><p class="sdesc">Pure dopamine hits built to stop thumbs, trigger shares, and make people @ their friends.</p></div></div>
+<div class="grid">
+
+<div class="card"><div class="cn">001</div><div class="ch">We Left a <em>Free Pizza</em> Sign Outside. Hidden Camera Rolling.</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">A box labeled "FREE PIZZA — Take One" sits outside on a busy London street. Hidden camera captures the full spectrum: sprinters, suspicious inspectors, the person who takes the whole box, and one guy who leaves his OWN pizza in exchange. Zero narration. Pure reaction.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Social Experiment</span><span class="pill">Curiosity Loop</span> — "What would I do?" creates instant emotional investment.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Everyone 16–35, especially commuters, students, anyone who's ever been "that person"</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Fixed hidden camera, raw footage, minimal editing, real-time speed</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we trust London. London said nope. 📦🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Tag someone who would take the whole box 👇</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Film on Richmond Row or near Western campus — recognizable to locals, relatable to everyone else</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Trust Experiment" — monthly social experiment drops testing London's character</div></div>
+</div>
+
+<div class="card"><div class="cn">002</div><div class="ch">We Called <em>Every Pizza Place</em> in London and Asked Who Makes the Best Pizza</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Employee calls competitors one by one in a professional voice: "We're doing research for a documentary — in your honest opinion, who makes the best pizza in London, Ontario?" Record the confusion, hang-ups, "uh, we do?", and one brave soul who says something unexpected. End card: Señors logo. Zero commentary.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Chaos Humor</span><span class="pill">Brand Confidence</span> — The audacity signals extreme confidence. Viewers share because they can't believe it was real.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Meme culture consumers, anyone who enjoys chaos</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Screen recording + reaction cam split, phone on speaker</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">market research. very professional. very normal.</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">We'll do round 2 if this gets 1,000 comments</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Name-drops every London chain — hyper-local recognition guaranteed</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Phone Calls" — calling local businesses with absurd pizza-related questions</div></div>
+</div>
+
+<div class="card"><div class="cn">003</div><div class="ch">Surviving a Full <em>London Ontario Winter</em> Using Only Pizza as Currency</div><span class="badge bs">SERIES</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">24-hour challenge: an employee tries to navigate London using only slices as currency. Tries to get a cab, pay for coffee, bribe someone for a bus pass. Some say yes. Most look horrified. Comedy gold either way.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Absurdist Humor</span><span class="pill">Narrative Drive</span> — People watch to find out if it works. The format creates a natural story arc. London winter setting adds relatability.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Students, local workers, anyone who hates London winters</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Vlog-style raw iPhone, handheld, fast cuts</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the economy is cooked. our pizza is not.</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Would you accept pizza as payment? 🍕 or 💀</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Filmed across iconic London spots: Market, Fanshawe, Dundas St. bus stop</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Pizza Economy" — each episode tests pizza in a different real-world scenario</div></div>
+</div>
+
+<div class="card"><div class="cn">004</div><div class="ch">What Happens to a Pizza Slice at <em>-20°C</em> for 3 Hours</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Time-lapse of a Señors slice left outside in a genuine London Ontario winter. It freezes stiff. Employee picks it up, snaps it. Then — plot twist — microwaves it back to life and tastes it. Verdict delivered with dead seriousness: "It's fine."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Curiosity</span><span class="pill">Satisfaction</span> — People genuinely want to know what happens. The twist (eating it anyway) is the payoff. Signals the pizza is resilient.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Night owls, late-night eaters, anyone who's had leftover pizza</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Time-lapse + slow-mo close-up of the snap, reaction cam</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">London winter can't stop the drip. 🧊🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What's the weirdest way you've reheated a slice?</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Uses London's brutal winters as a feature — everyone who's lived here gets it instantly</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Stress Tests" — subjecting the pizza to increasingly absurd conditions</div></div>
+</div>
+
+<div class="card"><div class="cn">005</div><div class="ch">We Ordered <em>Our Own Pizza</em> From DoorDash to See What Happens</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Staff places a DoorDash order from Señors to Señors. They fulfill it, watch the driver pick it up, and wait. The pizza arrives back at the shop. Employee opens the door: "…thank you." Delivered with full sincerity.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Absurdist Loop</span><span class="pill">Self-Awareness</span> — The circular logic is deeply funny. It also mocks gig economy absurdity which resonates hard with young audiences.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Gen Z, gig workers, anyone who over-uses DoorDash</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Skit, one-take energy, minimal edits</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">supporting local. very local.</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Drop ⭐⭐⭐⭐⭐ in comments for the driver</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">London DoorDash delivery times are notoriously chaotic — local audience immediately gets the joke</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "We Ordered Our Own Pizza" — testing different platforms, different drivers, different distances</div></div>
+</div>
+
+<div class="card"><div class="cn">006</div><div class="ch">Blind Taste Test: <em>Señors vs. Every London Pizza Place</em>. We Lose One.</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Genuine blind taste test with 5 London pizzas judged by random people. Señors wins 4/5 categories. One random guy picks a competitor for "most saucy" and the employee gives one pained nod: "Noted." Post it all. Don't hide the loss — it builds trust and invites controversy.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Credibility via Transparency</span><span class="pill">Debate Trigger</span> — Showing an honest result is more believable than a perfect score. Comments = reach.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Everyone in London Ontario, competitive foodies, debate lovers</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Man-on-the-street, real reactions, candid</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we showed our whole hand. fight us.</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Which London pizza would YOU vote for? 👇</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">All London brands named — every viewer has an opinion, every brand's fans will comment</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The London Pizza Olympics" — quarterly multi-category showdowns</div></div>
+</div>
+
+<div class="card"><div class="cn">007</div><div class="ch">We Put a <em>Job Posting</em> Up. The Requirements Were Unhinged.</div><span class="badge bs">SERIES</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Create a real-looking (fake) job listing: "Requirements: must fold a slice one-handed, must have strong opinions on pineapple, must be available at 2am on a Tuesday." Show the applications that come in — also unhinged. Hire the most chaotic person on camera.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Community Participation</span><span class="pill">Identity</span> — Invites audience to apply, meaning they're imagining themselves inside the brand. Massive engagement bait.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Students looking for part-time work, meme culture crowd</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Screen recording of listing + reaction cam, interview footage</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we are hiring. the bar is not high. it is underground.</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Reply with your qualifications to be considered 🍕</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Student hiring culture in London — everyone knows the struggle of job hunting in this city</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Hiring Season" — quarterly chaotic job application content</div></div>
+</div>
+
+<div class="card"><div class="cn">008</div><div class="ch">We Delivered a Pizza to Someone <em>Mid-Exam</em> at Western</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">With permission, a driver delivers a hot slice to a student in a campus study room mid-cramming. No words — just the box slid across the table. The student's face is everything. End: Señors logo — "Fuel for the grind."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Earned Emotion</span><span class="pill">Relatability</span> — Every student watching thinks "I need this." High share rate among student groups.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Western University / Fanshawe students, exam season audience</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Candid iPhone, wide then close on face, soft music underneath</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">finals week survival kit: one slice + the will to live 📚🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Tag the friend who needs this RN 🎯</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Western University campus — instantly recognizable to 40,000 students and their social circles</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Delivers" — surprise deliveries to people in specific stressful moments</div></div>
+</div>
+
+<div class="card"><div class="cn">009</div><div class="ch">Security Cam Footage From <em>2am</em> on a Saturday. No Context.</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Weekly series using real (or dramatized) security cam footage from the shop at 2am on weekends. Shows raw chaos: someone trying to pay with a crumpled $3, a group of six who all want something different, someone falling asleep mid-order. Zero commentary. Just footage and the timestamp.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Voyeurism</span><span class="pill">Social Proof</span> — Late-night crowds signal the brand is the go-to destination. People recognize themselves.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Late-night crowd, night owls, Richmond Row regulars</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Security cam aesthetic: grainy, wide, static mount, timestamp overlay</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">2:17am. no questions asked. 🕑</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Were you here? 👀 tag yourself</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Richmond Row late-night culture is a London institution — this IS the brand's natural habitat</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "2am Footage" — weekly drop every Sunday morning, becomes a content institution</div></div>
+</div>
+
+<div class="card"><div class="cn">010</div><div class="ch">We Asked a <em>Psychic</em> to Predict What Topping Would Save London</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">An employee in full psychic getup reads the "pizza aura" of random people on Dundas Street. Dead seriousness: "You are a pepperoni person... but your soul yearns for jalapeño." Reactions range from confused to genuinely moved. Predictions get increasingly specific.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Identity</span><span class="pill">Humor</span> — Pizza preferences are identity. "This is literally me" or "wrong, I'm a mushroom guy" — both get comments.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Anyone who treats food choices as a personality trait (i.e., Gen Z)</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Man-on-the-street, handheld, fast cuts between reads</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">your topping is your destiny. the pizza doesn't lie. 🔮🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What's your topping? We'll read your aura 🔮</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Filmed on Dundas Street during market hours — peak London foot traffic, recognizable backdrop</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Pizza Psychic" — recurring character, monthly readings, eventually builds its own following</div></div>
+</div>
+
+<div class="card"><div class="cn">011</div><div class="ch">We Found the Person Who Left a <em>1-Star Review</em> and Asked Why</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Read out an anonymized 1-star review with dramatic music. Employee processes it like a terminal diagnosis. Then: "We made it right." Show the person getting a free pizza, looking uncomfortably pleased. End card: "No hard feelings."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Conflict Resolution</span><span class="pill">Brand Trust</span> — Addressing criticism publicly shows confidence. Turns a negative into brand content.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Everyone who reads reviews before ordering (everyone)</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Dramatic reenactment intercut with real conversation, skit energy</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we don't run from feedback. we run TO it with a hot box.</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">1-star us. we dare you. (we'll find you)</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Google Maps reviews are the social currency of London food scene</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Review Redemption" — monthly, builds a reputation for accountability and humor simultaneously</div></div>
+</div>
+
+<div class="card"><div class="cn">012</div><div class="ch">A Pizza Slice Gets a <em>Full Day Itinerary</em> in London Ontario</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">A single slice is carried through a genuine London day: morning jog along the Thames, coffee shop, Victoria Park bench, Fanshawe campus, Budweiser Gardens exterior. Slow, cinematic. No voiceover. It ends back at Señors for "closing time." The pizza is still perfect.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Absurdism</span><span class="pill">Local Pride</span> — Locals share because they recognize every location. The seriousness IS the joke.</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Cinematic, high quality, almost serious</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">he had a good day. 🍕📍London, ON</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Where would you take the slice? 📍</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Slice on Tour" — fans nominate locations, slice eventually visits different cities</div></div>
+</div>
+
+<div class="card"><div class="cn">013</div><div class="ch">How Fast Can <em>One Person</em> Eat a Whole Pizza? We Timed It.</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Multiple employees and a willing customer each attempt to eat a full pizza. Leaderboard on screen. There is a clear underdog everyone roots for. The winner is someone no one expected. No prize — just a handshake and the camera's respect.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Competition</span><span class="pill">Rooting Interest</span> — Underdog story format guarantees watch-through. People comment to volunteer themselves.</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Sports broadcast energy, timer graphic, slow-mo of final bite</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">new record. no refunds. 🏆🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Think you can beat it? DM us. We're serious.</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Speed Run" — monthly leaderboard, builds genuine competition community</div></div>
+</div>
+
+<div class="card"><div class="cn">014</div><div class="ch">What If Every <em>Food Review Creator</em> Reviewed Señors at the Same Time</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Invite 5 local London foodie creators to review Señors on the same day — without knowing each other. Compile the wildly different review styles: the dramatic one, the ASMR one, the one who just goes "yeah it's good," the nutrition calculator, the chef critic. Contrast is the content.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Social Proof</span><span class="pill">Creator Economy Humor</span> — Each creator's audience now discovers Señors. Multiplier effect on reach.</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Collage/split-screen editing, fast jump cuts</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">five opinions. one pizza. make it make sense.</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Whose review style are you? 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Critics Circle" — quarterly, rotate new creators, compare scores over time</div></div>
+</div>
+
+<div class="card"><div class="cn">015</div><div class="ch">POV: You're a <em>Pizza Box</em> at Señors on a Friday Night</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">First-person POV camera rigged inside a pizza box lid. Watches the pizza get made, gets closed, bumps around in a bag, opens to a screaming group of friends at a party. Entire experience in 30 seconds. No narration needed.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Immersive POV</span><span class="pill">Journey Narrative</span> — POV videos have insane watch-through rates. The journey format keeps people watching for the reveal.</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">GoPro or phone mounted inside box lid, fast-paced edit, trending audio</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">from oven to chaos in 22 minutes. 📦✨</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Rate the arrival out of 10 🍕</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "POV: You're a Señors Pizza" — different delivery stories, always first-person</div></div>
+</div>
+
+<div class="card"><div class="cn">016</div><div class="ch">We Put a <em>Mystery Box</em> on a Bus Seat. Just a Pizza Box. Just to See.</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Employee leaves a closed Señors box on an empty LTC bus seat, sits behind with a hidden camera. People board, see it, react. Some sit next to it. One person smells it. One opens it (it's a decoy). The person who sits furthest away wins nothing but our respect.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Suspense</span><span class="pill">Real Human Behavior</span> — People watch to see what strangers do. The Señors box becomes a character in the scene.</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Hidden camera, candid, no staging</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the most important passenger on the #13 bus. 🚌🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What would you do? 🤔</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">LTC bus — hyperlocal London reference, universally understood by residents</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors in the Wild" — branded boxes in unexpected public places, cataloging human responses</div></div>
+</div>
+
+<div class="card"><div class="cn">017</div><div class="ch">We Asked People to <em>Describe Señors Pizza</em> Without Using Words</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Man-on-the-street. Random passersby who've eaten Señors must convey the experience using only gestures, sounds, or facial expressions. One guy does a full interpretive dance. One woman makes sustained eye contact. Someone does the Italian chef's kiss that becomes the brand sign-off.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Participation</span><span class="pill">Identity Anchor</span> — People who don't know the brand become curious enough to try it just to understand the reactions.</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Man-on-the-street, portrait orientation, fast cut between responses</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">some things can't be put into words. 🤌</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Show us YOUR Señors face in the comments 😤</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Express Yourself (Using Pizza)" — monthly, different prompts, builds a recurring community bit</div></div>
+</div>
+
+<div class="card"><div class="cn">018</div><div class="ch">We Made a Pizza at <em>3am</em> vs <em>3pm</em>. Same Recipe. Different Energy.</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Split screen. 3pm: bright kitchen, professional moves, upbeat music, perfect presentation. 3am: same moves, dimmer lighting, slower energy, one employee silently questioning their life choices while still making a perfect pizza. "Same pizza. Different soul."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Relatability</span><span class="pill">Humor via Contrast</span> — "Work brain vs. survival brain" resonates with everyone who's ever had a late shift.</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Split-screen, same framing, parallel editing</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the pizza never changes. we do. 🌙</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Are you a 3pm or 3am person? 🕒</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Morning vs. Midnight" — contrast different operational moments, each episode a different time shift</div></div>
+</div>
+
+<div class="card"><div class="cn">019</div><div class="ch">We Gave a Slice to a Dog in <em>Victoria Park</em>. Victoria Park Reacted.</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">With owner consent, a plain crust is offered to dogs in Victoria Park. Different breeds, different reactions — the golden retriever inhales it, the poodle sniffs with aristocratic judgment, the husky howls. Owner reactions equally good. End card: "Even the dogs know."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Dog Content = Guaranteed Engagement</span><span class="pill">Wholesomeness</span> — Dog videos are algorithmically powerful. Builds brand affinity without trying to sell anything.</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Candid handheld, dog-level angles, natural light</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the most credible food critics in London. 🐾🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What breed gave the best review? 🐶 vote below</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Victoria Park is the heartbeat of London — universally recognized, beloved location</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Paws &amp; Pizza" — seasonal, builds a loyal pet-owner audience segment</div></div>
+</div>
+
+<div class="card"><div class="cn">020</div><div class="ch">Someone Mapped Every <em>Señors Delivery</em> in One Night. The Shape Was Terrifying.</div><span class="badge bv">VIRAL</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Visualize one Friday night's delivery radius as dots on a Google Map of London — anonymized. As more deliveries appear in real time (sped up), the map fills in. The result looks like a constellation, or a face, or something unintentionally chaotic. React to the shape. Never explain it.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Data Storytelling</span><span class="pill">Community Belonging</span> — Every dot represents a person. Viewers try to find their dot. "We're all in this together."</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Screen recording of map, time-lapse, dramatic music build</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">one Friday night. London is not okay. (we love you.)</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Were you one of the dots? 📍 comment your area</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Map" — quarterly delivery maps showing city-wide growth over time</div></div>
+</div>
+
+</div></section>
+
+<!-- ═══ CAT 2: LOCAL / RELATABLE ═══ -->
+<section id="cat2">
+<div class="sh"><div class="sn">02</div><div><div class="st">Category Two</div><div class="stitle">Relatable &amp; Local Culture Content</div><p class="sdesc">London, Ontario gets its own content — speaking to students, winters, and energy in a way no national brand can replicate.</p></div></div>
+<div class="grid">
+
+<div class="card"><div class="cn">021</div><div class="ch">POV: You Just <em>Survived a Western Final</em> and Señors is Open</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Opens on someone walking out of an exam hall, dead-eyed and barely alive. Immediately calls Señors. Cut to: them on the floor of their apartment, pizza box open, total peace on their face. Text overlay: "Señors: The post-exam therapy your student plan doesn't cover."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Earned Reward</span><span class="pill">Massive Relatability</span> — Every Western student has had this exact moment. Sharing it IS sharing their identity. Viral in exam season.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">you survived. you deserve this. we're open. 📚🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Tag the person you're sharing a post-exam pizza with 🎯</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">Post during Western exam weeks (April, December) for maximum relevance</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "POV: You Survived" — different London survival moments (Homecoming, first snow, end of construction season)</div></div>
+</div>
+
+<div class="card"><div class="cn">022</div><div class="ch">Fanshawe vs. Western: <em>Which Campus</em> Orders More at Midnight?</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Pull anonymized data comparing average orders per night from both campus delivery zones. Build fake rivalry energy with graphics and trash talk captions, one employee wearing each school's colors. Don't declare a winner — let the campuses fight it out in comments.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Tribal Identity</span><span class="pill">Manufactured Rivalry</span> — School pride is instinctive. Both sides will defend themselves loudly. Algorithm rewards the comment war.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the only rivalry that matters in London. data doesn't lie.</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Western 🟣 or Fanshawe 🔵 — represent below</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "London Pizza War" — expanding to different neighborhoods, groups, demographics quarterly</div></div>
+</div>
+
+<div class="card"><div class="cn">023</div><div class="ch">Things That Are <em>Uniquely London Ontario</em> — With Pizza Commentary</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Rapid-fire list of hyper-local London quirks: the road construction happening since 1987, calling it "the Forest City" with zero irony, the LTC bus always being late, Budweiser Gardens energy. After each one: a Señors pizza as the emotional coping mechanism. "This city is a lot. We're here."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Local Pride / Self-Deprecating Humor</span> — Locals share because it's accurate. People who left London share from nostalgia.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">this city raised us. still raising us. 🌲🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What did we miss? London quirks in comments 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "London Is A Lot" — seasonal updates, invites audience submissions for new quirks</div></div>
+</div>
+
+<div class="card"><div class="cn">024</div><div class="ch">The <em>5 Types</em> of People Who Walk Into Señors at 1am</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Employee plays all 5 types in quick costume changes: 1) The Philosopher (profound observations about pepperoni), 2) The Group Diplomat (satisfying 7 different opinions), 3) The Quiet One who orders with scary precision, 4) The Person Having A Moment, 5) The Regular who doesn't need to speak — staff already knows.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Identity Recognition</span><span class="pill">Tribal Humor</span> — Everyone fits into a category. "I'm the Quiet One" gets shared to friend groups.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">which one are you and be honest 👀</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Tag your 1am pizza personality type 🍕</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Types" — different scenarios (Sunday morning, game day, first date), builds a cast of archetypes</div></div>
+</div>
+
+<div class="card"><div class="cn">025</div><div class="ch">Ordering Pizza in a <em>Canadian Snowstorm</em>: A Love Story</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">30-second micro-film. Outside: London Ontario in full February mode — sideways snow, grey skies, everyone walking like they've accepted their fate. Inside: warm Señors lighting, someone wrapping hands around a hot slice, steam rising. No dialogue. Music only. The contrast IS the emotion.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Sensory Contrast</span><span class="pill">Comfort Anchor</span> — Cold-outside/warm-inside is a primal comfort trigger. Positions Señors as the antidote to a London winter.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">London in February. you know what to do. 🌨️🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Stay warm, London. We're open. 🧡</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Seasons of Señors" — cinematic seasonal drops, each one a mini-film of London weather vs. pizza comfort</div></div>
+</div>
+
+<div class="card"><div class="cn">026</div><div class="ch">$20 at Señors vs. $20 Everywhere <em>Else in London</em></div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Employee goes to various London food spots with exactly $20. Documents what they get. Returns to Señors and shows what $20 gets here. No editorializing — just the food on the table. Let the visual do the work. (Only works if Señors genuinely wins.)</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Value Anchoring</span><span class="pill">Financial Relatability</span> — Broke students are hyper-aware of price-to-fullness ratio. Speaks their language without feeling like an ad.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">$20 goes further here. that's just math. 🧮🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Where does your $20 go in London? 💸 debate below</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "London on a Budget" — different price points, different scenarios, evolves into a cost-of-living commentary series</div></div>
+</div>
+
+<div class="card"><div class="cn">027</div><div class="ch">Homecoming Weekend <em>Señors</em> vs. Every Other Weekend at Señors</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Split screen. Regular Tuesday: calm, one customer, staff is chill. Homecoming Saturday: absolute pandemonium, staff has accepted God. Document the chaos respectfully — this is a love letter to the madness, not a complaint. Ends with: "See you next year."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Event Identity</span><span class="pill">FOMO</span> — Homecoming is a cultural institution. Being the pizza place at the center of it builds legendary status.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">Homecoming came. Homecoming conquered. we survived. 🏈🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">If you were here, you know. 🫡 drop the year you went to Western</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual drop — becomes anticipated content, builds archive of Señors Homecoming history</div></div>
+</div>
+
+<div class="card"><div class="cn">028</div><div class="ch">The <em>Señors Order Cycle</em> — Mapped by Season</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Visual showing what people order at Señors by season. Fall: classic, ambitious orders. Winter: comfort, heavy, chaotic late-night. Spring: "we're trying to be healthy" combos. Summer: tourist orders and baffling topping requests. Narrated by a deadpan employee.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Pattern Recognition</span><span class="pill">Data Humor</span> — "This is 100% accurate" shares generate significant reach.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we see you London. all year round.</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Which season has the best orders? Vote 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual "Year in Pizza" content — becomes a brand data tradition, builds anticipation</div></div>
+</div>
+
+<div class="card"><div class="cn">029</div><div class="ch">Canadians Ordering Pizza: A <em>Study in Excessive Politeness</em></div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Documentary-style observation. "Sorry, could I maybe possibly have — no no sorry — a medium? Only if that's okay. Sorry." Employee responds with equal energy: "Of course, sorry for the wait." Both apologizing endlessly. The pizza arrives. "Oh wow, no, thank you. Sorry." Eternal Canadian courtesy loop.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">National Identity Humor</span><span class="pill">Self-Recognition</span> — Every Canadian has been this person. Canadian politeness is internationally recognized — gets massive traction beyond Canada.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">sorry for making the best pizza in London. sorry. 🍁🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">How many times did you apologize this week? No judgment. (Sorry.) 😅</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Canadian Pizza Problems" — recurring sketches about specifically Canadian ordering behaviors</div></div>
+</div>
+
+<div class="card"><div class="cn">030</div><div class="ch">The London Ontario <em>Road Construction</em> Pizza Order: How We Calculated Your ETA</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Employee stands in front of a map of London covered in construction cones. Explains the "Señors Delivery Algorithm": take the order time, add construction delay, multiply by the number of orange barrels on your street, add 12 minutes for "vibes." "Our algorithm has never been wrong."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Shared Frustration</span><span class="pill">Brand Empathy</span> — Brands that acknowledge shared pain build instant goodwill. Turns a delivery frustration into a joke they're in on.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the construction is temporary. our pizza is forever. 🚧🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Name the most unreasonable construction zone in London 😤</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors vs. Construction" — seasonal updates each time a new major road project is announced</div></div>
+</div>
+
+<div class="card"><div class="cn">031</div><div class="ch">London Spitfires Game Night: <em>The Pizza Math</em></div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Track the correlation between Spitfires game outcomes and Señors order volume. Win: orders spike 40%. Loss: orders spike 60%. "London, Ontario processes grief through pizza and we respect that." Present the data like a sports analyst.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Sports Identity</span><span class="pill">Community Data</span> — Connects the brand to an existing community ritual. Non-fans find the data humor relatable too.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">win or lose, London eats. 🏒🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Go Spits 🏒 — tag a fan who needs post-game pizza</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Game Night by the Numbers" — live during Spitfires season, post-game data drops become must-see content</div></div>
+</div>
+
+<div class="card"><div class="cn">032</div><div class="ch">Moving to London Ontario: <em>What They Told You vs. What Señors Told You</em></div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">"What the university website said: vibrant student community, endless activities." "What actually happened: it's -18, everything closes at 10pm, but Señors is open and that's enough." Drily affectionate about the London experience for newcomers.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Newcomer Solidarity</span><span class="pill">Honest Brand Voice</span> — Students who just moved to London feel seen immediately. High share rate among first-year students.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">welcome to London. we've been expecting you. 🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">First-years: drop where you're from 📍 we got you</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual "Welcome to London" series — drops every September, becomes a tradition for incoming students</div></div>
+</div>
+
+<div class="card"><div class="cn">033</div><div class="ch">We Asked 50 Londoners: <em>What's the Most London Ontario Thing You've Ever Done?</em></div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Man-on-the-street on Dundas St. Genuinely funny, specific answers: "Complained about construction while driving through construction," "Went to the Covent Garden Market for vibes and left with nothing." End card: "Señors. Very London." No more explanation needed.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Collective Identity</span><span class="pill">Authenticity</span> — Real people, real answers. Brand positioning through cultural association rather than product push.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">London has a personality. we're part of it. 🌲</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Drop the most London Ontario thing YOU'VE done 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Very London" — quarterly community portrait project, builds brand as a cultural institution</div></div>
+</div>
+
+<div class="card"><div class="cn">034</div><div class="ch">The Real Reason <em>London Ontario</em> Doesn't Have a Baseball Team (It's Pizza)</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Absurdist "documentary" short. Employee presents fake historical evidence that London Ontario's community priorities are so focused on pizza that no one voted for a baseball team. Fake newspaper clippings. An interview with "a local historian" (another employee in glasses). Archival B-roll of downtown London looking suspicious.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Absurdist Local Humor</span><span class="pill">Conspiracy Framing</span> — The mockumentary format is deeply entertaining. Locals share it for the specific London observations.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the truth has been suppressed for too long. 📰🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What London mystery should we investigate next? 🔍</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The London Files" — mockumentary investigations of London Ontario mysteries</div></div>
+</div>
+
+<div class="card"><div class="cn">035</div><div class="ch">Every London Night Ends the Same Way — <em>We Have Proof</em></div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Montage of different London nights: a study night, a sports bar, a house party, a date that went okay, a night out that went sideways. All end with the same shot: a Señors pizza box being opened. "Different nights. Same ending." Music swells. Very cinematic.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Universal Truth</span><span class="pill">Brand as Cultural Anchor</span> — Positions Señors as the inevitable conclusion to any London night. Powerful brand embedding without a single sales mention.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">always. 🌙🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What was your night before the pizza? 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual recap format — "The Year in London Nights" — Señors becomes the ending of every year too</div></div>
+</div>
+
+<div class="card"><div class="cn">036</div><div class="ch">Old East London vs. <em>North London</em>: Pizza Personality Test</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Survey different London neighborhoods' most common Señors orders. Old East: adventurous, spicy, unconventional. Byron: "the usual." Masonville area: something with extra cheese, ordered online. Present as a neighborhood personality study. Friendly, never mean.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Neighborhood Identity</span><span class="pill">Tribal Pride</span> — People care about their neighborhood identity. Each area will share to represent their hood.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">every hood has a vibe. every vibe has a pizza. 📍</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Represent your London neighborhood 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "London Neighborhood Profiles" — quarterly, one neighborhood at a time, eventually covers all of London</div></div>
+</div>
+
+<div class="card"><div class="cn">037</div><div class="ch">We Delivered to the <em>Furthest Address</em> in London. It Was Weird Out There.</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Employee documents the longest possible Señors delivery — GPS tracking, commentary on the journey, what they discover at the edge of London's delivery radius. The destination is an ordinary house with an extraordinary pizza fan.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Journey Narrative</span><span class="pill">Brand Loyalty Showcase</span> — The "how far would we go" story signals dedication. Natural suspense keeps viewers engaged.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we go where others won't. 🚗🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Are you in our zone? Drop your area 📍</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Edge of London" — delivery stories from increasingly remote London addresses</div></div>
+</div>
+
+<div class="card"><div class="cn">038</div><div class="ch">We Tried to Order Pizza at <em>Every Non-Pizza</em> Business on Dundas</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Employee walks into a clothing store, a bank, a pharmacy and politely asks if they can order a Señors pizza. Some employees play along. One says "we don't do that here" but looks genuinely disappointed. Ends at Señors: "Finally."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Absurdist Comedy</span><span class="pill">Contrast/Payoff</span> — The journey to find pizza makes the final arrival feel earned. Local business interactions are charming and shareable.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">looked everywhere. found us. as expected. 🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What's the strangest place you've thought about pizza? 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Can I Order a Pizza Here?" — different London locations, increasingly absurd</div></div>
+</div>
+
+<div class="card"><div class="cn">039</div><div class="ch"><em>International Students</em> React to Their First Señors Pizza</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Partner with Western international students to capture genuine first Señors reactions. Different backgrounds, wildly different comparisons: "This isn't pizza like back home but I think I like it more?" One student cries (happy tears). Framed with genuine cultural curiosity and warmth.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Cultural Bridge</span><span class="pill">Authentic Testimony</span> — International students represent one of London's largest demographics. Wide cultural reach globally.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">welcome to Canada. welcome to London. welcome to Señors. 🌍🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Where are you from? Drop your country 🌏</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "First Pizza" — grows into a global cultural project as different countries are represented</div></div>
+</div>
+
+<div class="card"><div class="cn">040</div><div class="ch">A Day in the Life of a <em>Señors Driver</em> in London Ontario</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">GoPro-style day-in-the-life of a delivery driver. The characters they meet, the bizarre instructions ("Leave at back door, ring bell twice, avoid the geese"), the construction detour, the moment someone opens the door and their whole face lights up. A love letter to the job and the city.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Human Interest</span><span class="pill">Behind-the-Scenes</span> — People are inherently curious about other people's jobs. The driver becomes a character viewers root for. Humanizes the brand completely.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">this city would be lost without him. (he agrees.) 🚗🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Leave a kind word for your delivery driver 🙏</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Driver Chronicles" — different drivers, different nights, builds a cast of relatable characters</div></div>
+</div>
+
+</div></section>
+
+<!-- ═══ CAT 3: STORY / SERIES ═══ -->
+<section id="cat3">
+<div class="sh"><div class="sn">03</div><div><div class="st">Category Three</div><div class="stitle">Story-Driven &amp; Series Content</div><p class="sdesc">These ideas build narrative momentum and make the audience come back — because they need to know what happens next.</p></div></div>
+<div class="grid">
+
+<div class="card"><div class="cn">041</div><div class="ch">The <em>Señors Intern</em> — Episode 1: Their First Shift Ends With a Fire (Not Literally)</div><span class="badge bs">SERIES ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Recurring character: an enthusiastic, slightly chaotic intern who is way too excited about the job. Each episode follows increasingly unhinged tasks, misunderstandings, and accidental genius moments. They suggest a topping combo that becomes real. They accidentally negotiate a supplier deal. They become the most beloved employee. 60–90 seconds per episode.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Character Investment</span><span class="pill">Narrative Continuity</span> — Viewers follow characters, not brands. Comments build around predictions: "what will they do next?"</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">Episode 1. he's already on thin ice. follow for updates. 🧊</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Follow so you don't miss Episode 2 👀</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Flagship series: weekly or bi-weekly episodes. Can evolve into the brand's signature content franchise. Eventually the intern gets recognized on the street.</div></div>
+</div>
+
+<div class="card"><div class="cn">042</div><div class="ch">30 Days. Every Day. <em>Señors Only</em>. Is This a Mistake?</div><span class="badge bs">SERIES ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">A real or skit employee commits to eating Señors every single day for 30 days. Daily 15-second check-ins. Days 1–5: enthusiastic. Days 6–15: existential. Days 16–25: transcendence. Days 26–30: "I see pizza in my dreams and I'm okay with it." Weekly recap episodes. Ends: "I'd do it again."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Challenge Narrative</span><span class="pill">FOMO Loop</span> — Daily check-ins create a viewer habit. Missing a day feels like missing an episode.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">Day [X]/30. we're not stopping. 🍕📅</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Follow for daily updates — Day [X+1] drops tomorrow ⏰</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual challenge — different employee each year. Community members eventually try it themselves.</div></div>
+</div>
+
+<div class="card"><div class="cn">043</div><div class="ch">We're <em>Rebuilding the Entire Menu</em> Based on Customer Votes. Live.</div><span class="badge bs">SERIES ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Multi-episode arc: announce the menu is being rebuilt from scratch based on community votes. Polls for sauce, base, toppings. Employees react to results in real time — some with joy, some with visible concern ("London voted for what?"). Final episode: the winning pizza gets made and tried. Either transcendent or unhinged. Either is content gold.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Co-Creation</span><span class="pill">Ownership</span> — When people vote, they're invested in the outcome. The result feels like their pizza.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">you voted. we made it. you're responsible for this. 🍕🗳️</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Vote in stories NOW — polls close in 24hrs 🗳️</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Quarterly "Community Pizza Build" — each quarter, one new pizza created by audience vote, becomes a limited-time item</div></div>
+</div>
+
+<div class="card"><div class="cn">044</div><div class="ch">We Found the <em>Most Loyal Customer</em> in London. Their Story is Insane.</div><span class="badge bs">SERIES ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Identify the customer with the most lifetime orders. Interview them. What's their story? What were they going through when they first found Señors? What does their order say about them? Treat them like a documentary subject — full Michael Apted energy. Their story becomes the brand's story.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Human Story</span><span class="pill">Loyalty as Identity</span> — People see themselves as the loyal customer. The subject's real emotion creates genuine content.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">every order has a story. this one is something else. 🎬🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Are you our most loyal customer? DM us and prove it 🏆</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Regulars" — monthly customer documentary portraits, builds a community hall of fame</div></div>
+</div>
+
+<div class="card"><div class="cn">045</div><div class="ch">The <em>Secret Menu</em> — Week 1: One Item Only Followers Know About</div><span class="badge bs">SERIES ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Each week, a new "secret menu" item is revealed via Stories or Reels. Only followers can order it by name. Items are real and orderable. Names are inside-joke references to brand lore ("The Intern's Mistake," "The 2am Special"). Track how many orders each secret item generates. Post the numbers.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Exclusivity</span><span class="pill">Insider Identity</span> — People love being "in the know." Ordering by a secret name creates a ritual. Followers feel rewarded for following.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">you didn't see this. you don't know anything. 🤫🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Follow + share to unlock secret menu access 🔐</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Permanent ongoing series — infinite content, drives direct business, builds a follower reward culture</div></div>
+</div>
+
+<div class="card"><div class="cn">046</div><div class="ch">The <em>Señors After Dark</em> Mockumentary — What Happens After Close</div><span class="badge bs">SERIES ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">After the last customer leaves, the pizza ingredients "come to life." The jalapeños are chaotic, the cheese is responsible, the pepperoni thinks it runs the place. Each episode follows a different night-time "crisis." Shot like a nature documentary — David Attenborough energy.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Anthropomorphism</span><span class="pill">World-Building</span> — Giving ingredients personality makes the food memorable. Absurd and delightful — inherently shareable.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">what happens at Señors after midnight is not our responsibility. 🌙🧀</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Who would win in a fight: pepperoni or jalapeño? Vote 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Long-running series with recurring ingredient characters — potential to evolve into animated content and merch</div></div>
+</div>
+
+<div class="card"><div class="cn">047</div><div class="ch">We're <em>Training for the Pizza Olympics</em>. This Is Our Journey.</div><span class="badge bs">SERIES ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">The "Pizza Olympics" don't exist. Señors is training for them anyway. Series of training montages: competitive pizza folding, speed-ordering, cheese-pull precision, delivery route optimization. Treated with full athletic documentary seriousness — training music, split-second timers, a coach with strong opinions.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Sports Narrative</span><span class="pill">Absurdist Commitment</span> — Applying Olympic-level seriousness to pizza creates a unique genre of humor. The commitment to the bit is what makes it work.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the Pizza Olympics aren't real. yet. 🏅🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What event should be in the Pizza Olympics? 🏋️ drop your answer</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Road to Gold" — culminates in a fake "Olympics Day" event that could involve real community participation</div></div>
+</div>
+
+<div class="card"><div class="cn">048</div><div class="ch">The <em>Late Night Diaries</em> — Real Stories Collected at 2am</div><span class="badge bs">SERIES ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">With consent, collect short stories from real customers who come in after midnight. Told by an employee in voiceover over atmospheric B-roll. "A man came in and said 'I don't know what I want but I know I need something.' We made him a pepperoni." Fades to black. Señors logo.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Human Interest</span><span class="pill">Late-Night Intimacy</span> — Night-time strips away pretense. People are real at 2am. Deeply humanizing for the brand.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">2am tells the truth. 🌙</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What's your 2am story? 🍕 share below (anonymously if you want)</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Weekly series — builds a genuine archive of London Ontario late-night human stories, becomes a brand signature</div></div>
+</div>
+
+<div class="card"><div class="cn">049</div><div class="ch">We Wrote a <em>Full Dramatic Recap</em> of Our Worst Week. It's a Lot.</div><span class="badge bs">SERIES ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Monthly "Señors Weekly Recap" styled like an HBO miniseries trailer: slow-motion footage of a busy Saturday, ominous music, extreme close-ups of toppings. "They said it couldn't be done. 347 orders. One oven. A city that never sleeps." Ends: "Now streaming: Señors, Season [Month]."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Drama Parody</span><span class="pill">Self-Importance Humor</span> — Treating a pizza shop week like prestige TV is inherently funny. Grandiosity vs. mundanity is the entire joke.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">coming to an Instagram near you. every month. whether you're ready or not.</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Hit follow to watch every episode 📺</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Monthly "Season" format — viewers build anticipation for each new month's "episode"</div></div>
+</div>
+
+<div class="card"><div class="cn">050</div><div class="ch">We're Writing <em>Señors Pizza Fan Fiction</em>. The Internet Will Decide the Ending.</div><span class="badge bs">SERIES ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">An ongoing story set in the "Señors universe" — where the pizza shop exists in a slightly alternate London where the pizza is rumored to have powers. Each episode ends with a choice. Comments vote on what happens. The story actually goes where the votes take it. Fully committed to the fiction.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Interactive Narrative</span><span class="pill">Community Investment</span> — When the story goes somewhere because YOU voted, you're invested. The weirdness is the appeal.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the story continues. the people decide. 📖🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Vote: Option A or Option B? 👇 YOUR choice shapes Episode [X+1]</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Long-form interactive series — can evolve into a web series, comic, or merch universe. Limitless creative ceiling.</div></div>
+</div>
+
+<div class="card"><div class="cn">051</div><div class="ch">Behind the <em>Dough</em>: The Origin of Every Ingredient We Use</div><span class="badge bs">SERIES</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">One ingredient per episode — sauce, cheese, pepperoni — traced from source to slice. Treated with the reverence of a nature documentary. The tomato sauce episode involves an employee reading the can label with increasing emotional investment: "San Marzano. Italy. Respect."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Transparency</span><span class="pill">Craft Appreciation</span> — Shows care without being preachy. Viewers respect brands that know what they're doing and why.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">it's not just pizza. it never was. 🍅</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Which ingredient should we cover next? 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Behind the Dough" — one ingredient per month, eventually covers all toppings, becomes a food education archive</div></div>
+</div>
+
+<div class="card"><div class="cn">052</div><div class="ch">We Tracked Down the Person Who Left the <em>Most Creative Google Review</em> We've Ever Gotten</div><span class="badge bs">SERIES</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Each episode: find the author of an unusually creative, poetic, or unhinged Señors Google review. Track them down (with consent). Interview them about what they were feeling when they wrote it. One person wrote a review in sonnet form. One wrote a three-paragraph review about how the pizza helped them during a breakup.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Review Culture Awareness</span><span class="pill">User Story</span> — Celebrates the audience, turns reviews into content, incentivizes creative reviewing going forward.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the review found us first. 📝🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Leave a creative review and you might be our next episode 🎬</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Ongoing series — incentivizes high-quality reviews, generates consistent content, builds a review culture around the brand</div></div>
+</div>
+
+<div class="card"><div class="cn">053</div><div class="ch">One Pizza. <em>Ten Different People</em>. Ten Completely Different Reactions.</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">The exact same slice delivered to ten different people across London — a gym bro, a philosophy professor, a toddler, a grandma, someone fresh out of the gym, someone who just woke up. Film each reaction. The pizza is constant. Humanity is the variable.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Anthropological Curiosity</span><span class="pill">Diversity of Reaction</span> — A toddler and a professor reacting to the same slice is inherently charming. Everyone finds "their" person.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">same pizza. different souls. same result. 🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Which reaction was you? 🙋 comment below</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "One Slice, Different Worlds" — can expand to different cities for cross-cultural comparison</div></div>
+</div>
+
+<div class="card"><div class="cn">054</div><div class="ch">We Asked Our Oldest Regular: <em>How Long Have You Been Coming Here?</em></div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Genuine interview with the customer who has ordered from Señors the most times or the longest. Let them tell their story. When did they first come? What were they going through? What does a Señors order mean to them now? No script. If they get emotional: good. That's the content.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Brand Legacy</span><span class="pill">Emotional Depth</span> — Loyalty shown through a human story builds credibility no ad can replicate.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">some relationships outlast everything else. 🍕❤️</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">How long have you been ordering from us? 📅</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual "Loyalty Portrait" — one long-term customer per year gets the documentary treatment</div></div>
+</div>
+
+<div class="card"><div class="cn">055</div><div class="ch">The <em>Señors Founding Story</em> — as Told by Staff — Dramatically</div><span class="badge bs">BRAND</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Each employee gives their version of how Señors started — with increasing dramatic embellishment. V1: accurate and humble. V2: adds a thunderstorm. V3: a London blizzard of historic proportions. V4: "the recipe came to the founder in a dream." V5: mythology complete.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Brand Mythology</span><span class="pill">Cumulative Humor</span> — Each version raises the stakes. Viewers watch all five to see how far it goes. The resulting "lore" becomes part of the brand's identity.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the truth. probably. 📜🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Which version do you believe? 👇 the truth may surprise you</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Lore" — each piece of brand mythology gets its own dramatic retelling over time</div></div>
+</div>
+
+<div class="card"><div class="cn">056</div><div class="ch">We Trained a New Employee Using <em>Only Pizza Metaphors</em></div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">"Life is like a pizza: you need a good base before you can add complexity." "Teamwork is like cheese: it holds everything together." "Customer service is like the crust: often overlooked, but the whole experience depends on it." New employee nods — confused but absorbing it.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Absurdist Wisdom</span><span class="pill">Workplace Humor</span> — The metaphors are somehow both stupid and correct. Viewers can't decide if this is genius or madness — which means they comment.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">everything you need to know. told through pizza. 🍕📋</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What's your best pizza life metaphor? Drop it 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Pizza Philosophy" — weekly life advice, all delivered in pizza metaphors, becomes the brand's motivational content lane</div></div>
+</div>
+
+<div class="card"><div class="cn">057</div><div class="ch">We Tried to <em>Recreate the Perfect Order</em> From a Dream a Customer Had</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">A customer DMs saying they dreamed about a specific pizza — described in hazy terms. "It was warm and kind of yellow but there was something spicy but it wasn't jalapeños, it was more like... a feeling." Staff deliberates seriously. The creation is revealed and tasted.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Surrealism</span><span class="pill">Co-Creation</span> — Viewers watch to see how you translate a feeling into food. Genuinely curious format.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the subconscious orders. we obey. 💭🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">DM us your pizza dream. we might make it real. 🌙</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Dream Menu" — monthly, viewers submit their own pizza dreams for the kitchen to interpret</div></div>
+</div>
+
+<div class="card"><div class="cn">058</div><div class="ch">We Gave Every Employee a <em>Dramatic Exit Interview</em> For a Shift That Ended Fine</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">At the end of an ordinary shift, an employee sits for a formal "exit interview" with the weight of a corporate severance meeting. "Was the 7pm jalapeño incident handled appropriately?" The employee answers as if giving testimony. Nothing bad happened. Nothing.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Workplace Comedy</span><span class="pill">Dramatic Irony</span> — The gap between the serious format and mundane content is the entire joke. Painfully funny to anyone who's worked a service job.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">a full debrief on a completely normal Tuesday. 📋</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What would your Tuesday shift exit interview say? 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Debrief" — weekly or monthly, different employees, different normal shifts, builds a workplace comedy franchise</div></div>
+</div>
+
+<div class="card"><div class="cn">059</div><div class="ch">The Day We <em>Accidentally</em> Went Viral (And What We Did With 4 Hours of Fame)</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Narrative video about a moment (real or fictional) where a Señors post accidentally took off — the chaos in the shop as orders spiked, the staff scrambling, the one employee who doesn't understand "going viral" but is excited anyway. Told retrospectively like a heist story. Ends: "We've been chasing that high ever since."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Meta Awareness</span><span class="pill">Underdog Energy</span> — Self-aware content about trying to grow resonates with audiences building things themselves.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">it lasted 4 hours. we've never been the same. 📱🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Help us make it happen again. share this. 🙏</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Single iconic story that becomes brand mythology — retold and expanded in future anniversary content</div></div>
+</div>
+
+<div class="card"><div class="cn">060</div><div class="ch">Señors vs. <em>Mom's Homemade Pizza</em> — The Reckoning Has Arrived</div><span class="badge bs">SERIES</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Employee brings in their mom to make her homemade pizza in the Señors kitchen. Both pizzas made side by side. A panel blind taste tests them. Mom's wins one category. Señors wins two. Everyone hugs. Epilogue: "We offered her a job. She said she'd think about it."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Universal Relatability</span><span class="pill">Emotional Warmth</span> — Every person has a "mom's food" touchstone. Signals humility and confidence simultaneously.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the most important competition we've ever entered. 🏆❤️</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Tag your mom who thinks they can beat us 👩‍🍳</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors vs. Home" — different family cooks (dads, grandmas, aunts), eventually opens to community members</div></div>
+</div>
+
+</div></section>
+
+<!-- ═══ CAT 4: CONTROVERSY / DEBATE ═══ -->
+<section id="cat4">
+<div class="sh"><div class="sn">04</div><div><div class="st">Category Four</div><div class="stitle">Controversial &amp; Debate Content</div><p class="sdesc">Comments are currency. These ideas split the internet in half — safely, amusingly, in ways that only help the brand.</p></div></div>
+<div class="grid">
+
+<div class="card"><div class="cn">061</div><div class="ch"><em>Pineapple on Pizza is Correct</em> and We're Not Backing Down</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Employee delivers a TED Talk-quality defense of pineapple on pizza. Slides, statistics, flavor science, historical context, unwavering confidence. "Sweet-acid contrast is a proven culinary principle. You're not wrong for hating it. You're just not ready." Zero hedging. Absolute conviction. Ends: "The motion stands."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Tribal Food Wars</span><span class="pill">Confident Minority Takes</span> — Taking the controversial side confidently triggers both sides to comment. The pineapple debate NEVER dies.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the evidence has spoken. your feelings are valid. your feelings are also wrong. 🍍🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">🍍 = you agree. 🚫 = you're wrong but we respect you. vote.</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Hot Takes" — bi-weekly controversial pizza opinions, each one more committed than the last</div></div>
+</div>
+
+<div class="card"><div class="cn">062</div><div class="ch">We Ranked Every <em>Dipping Sauce</em>. It Got Personal.</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Staff assembles to rank all dipping sauces on a tier list. The debate during the ranking IS the content. Genuine disagreements, dramatic faces, one person who puts ranch in S-tier while everyone stares. The final tier list is posted — controversial enough to guarantee comment disagreement.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Tier List Psychology</span><span class="pill">Opinion Assertion</span> — Tier lists trigger immediate "you're wrong" responses. Every food preference is personal.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the official ranking. non-negotiable. fight us. 🥫</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What did we get wrong? Be specific. 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Rankings" — toppings, crusts, pizza styles, delivery apps — tier lists are infinite content</div></div>
+</div>
+
+<div class="card"><div class="cn">063</div><div class="ch">The Correct Way to <em>Reheat Pizza</em>. This Debate Ends Today.</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Four employees each reheat the same slice: microwave, oven, air fryer, and skillet. Each defends their method with genuine passion. The microwave person loses badly but stands by their choice: "I have no regrets." Skillet wins. Everyone already knew this.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Tribalism</span><span class="pill">Validation-Seeking</span> — Everyone has a reheating method. People share this to prove they were right. The microwave defender is everyone's villain/hero.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we settle debates here. that's our job now. 🍕🔥</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What's your reheating method? No judgment (there is judgment) 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Great Pizza Debate" — settles a different pizza controversy every two weeks</div></div>
+</div>
+
+<div class="card"><div class="cn">064</div><div class="ch">Your Pizza Order <em>Reveals Your Personality</em> and You Won't Like What We Found</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Based on topping choices, deliver sharp personality reads. "Extra cheese: you have trust issues but a solid friend group." "Vegetarian supreme: you voted in the last election and want everyone to know." "Plain pepperoni: you peaked in high school and you're fine with that." Confident, funny, not mean.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Identity Projection</span><span class="pill">Horoscope Effect</span> — Personality reads are irresistible because people want to be seen. Comments explode with "THIS IS ME" and "HOW DARE YOU."</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">your order doesn't lie. you do. 🍕🔮</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What's your order? We'll read your soul. 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Your Order Says..." — quarterly updates as new menu items launch, expands to order frequency, delivery time, etc.</div></div>
+</div>
+
+<div class="card"><div class="cn">065</div><div class="ch">Is Pizza <em>Breakfast Food</em>? We're Settling This With Data.</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Present the nutritional case for cold pizza in the morning. Compare caloric content to a granola bar, muffin, and healthy breakfast wrap. Pizza wins two of four categories. Employee stares into camera: "It's breakfast. It has always been breakfast." Data doesn't lie. Culture does.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Permission Slip</span><span class="pill">Debate Trigger</span> — People want to be told their guilty pleasure is justified. This gives them permission AND creates a debate from the disapprovers.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">science said so. breakfast is served. 🍳🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Cold pizza for breakfast: yes or crime? 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors vs. Food Culture" — challenging conventional food wisdom with data and confidence, one myth per month</div></div>
+</div>
+
+<div class="card"><div class="cn">066</div><div class="ch">We Made the Most <em>Hated Topping Combination</em>. It Was Kind of Incredible.</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Compile the most hated combos from comments. Make the worst one. Employee tastes it with full preparation for disaster. Reaction: complicated. "I don't like that I like this." Everyone is shaken. One more bite to confirm. "We might be putting this on the menu." The internet loses its mind.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Controlled Chaos</span><span class="pill">Discovery Arc</span> — "The thing I thought I hated is good" is a universally satisfying narrative.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">you said never. we said hold on. 🍕😳</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Drop your worst combination below. We're taking notes. 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Worst Idea" — monthly experiments with comment-sourced nightmare combos, some actually become menu items</div></div>
+</div>
+
+<div class="card"><div class="cn">067</div><div class="ch">Domino's vs. Señors: <em>We're Not Scared</em> to Do This</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Genuine blind taste test, filmed entirely from Señors' perspective. Employee panel, real scoring. Señors wins overall (only if it genuinely does — don't fake it). The audacity of a London Ontario pizza shop calling out a global chain is the entire narrative. "We're not scared."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">David vs. Goliath</span><span class="pill">Underdog Brand Identity</span> — Audiences root for the underdog. Every indie brand that challenges a chain earns respect and attention.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">local vs. global. no contest. (we have receipts.) 🍕📋</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Local pizza > chain pizza: agree or wrong? 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors vs. The World" — takes on different chains over time, builds a championship arc</div></div>
+</div>
+
+<div class="card"><div class="cn">068</div><div class="ch">Eating Pizza With a <em>Fork is Acceptable</em> and Here's the Psychological Case</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">An employee calmly and intelligently defends fork-pizza eating. Cites structural engineering, social anthropology, and personal autonomy. Then eats a slice with a fork and knife in front of the camera. Elegant. Unblinking. The comments are a war zone.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Cultural Violation Humor</span><span class="pill">Calm in the Face of Chaos</span> — People screenshot and share to say "look at this person." That share IS the reach.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the discourse was necessary. we stand by everything said here. 🍴🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">🍴 or 🖐️ — how do you eat it?</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Unpopular Opinions" — defends one food behavior per month with intellectual confidence</div></div>
+</div>
+
+<div class="card"><div class="cn">069</div><div class="ch">We Asked 100 London Students: <em>What Your Pizza Order Says About Your Major</em></div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Business students: safe, classic, always adds extra cheese for perceived value. Arts: whatever sounds most interesting, sometimes impractical. Engineering: same exact order every time. Med: ordering at 1am after weeks of nothing. Nursing: ordering for the whole floor. Kin: plain with protein.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Academic Identity</span><span class="pill">Stereotype Engagement</span> — Students are deeply tribal about their programs. Every category triggers sharing or defending — both generate equal engagement.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">your degree chose your pizza. you just didn't know it yet. 🎓🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What's your program + your order? Prove us wrong 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Profiling" — expands to job types, neighborhoods, personality types, zodiac signs</div></div>
+</div>
+
+<div class="card"><div class="cn">070</div><div class="ch">The Pizza Crust is the <em>Best Part</em> and We Have 3 Minutes to Prove It</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">A manifesto. Employee defends the crust against all who leave it on their plate. Points to people who leave crusts as "uninformed." Offers a formal apology to every crust ever abandoned. The crust deserved better. We gave it a moment.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Underdog Advocacy</span><span class="pill">Hot Take Delivery</span> — People who leave crusts feel called out. People who eat them feel validated. Both groups comment.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">this is for every crust that got left behind. 🍞🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Crust eater or crust leaver? Confess. 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "In Defense Of" — monthly defenses of underrated pizza elements: the corner slice, the burnt cheese, the cold pizza</div></div>
+</div>
+
+<div class="card"><div class="cn">071</div><div class="ch">We Timed How Long It Takes Londoners to Decide on <em>a Topping</em>. The Results Are Concerning.</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Stopwatch. Real customers at the counter. How long from question to answer? One person: 14 seconds. Fine. Another: 3 minutes 47 seconds, orders plain cheese. The data visualized as a chart. "London, Ontario: decisive city."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Behavioral Mirror</span><span class="pill">Self-Recognition</span> — People recognize their own decision paralysis. "This is literally my partner" gets shared to partners.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">47 seconds. you know who you are. ⏱️🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">How long does it take you? Time yourself tonight. 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "London by the Numbers" — behavioral data from the shop turned into funny local statistics</div></div>
+</div>
+
+<div class="card"><div class="cn">072</div><div class="ch">Cold Pizza vs. Hot Pizza: <em>We Are Picking a Side</em></div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Two employees represent each side. Full panel discussion format — real arguments, real emotion. Cold pizza advocate: "The fat solidifies, the flavors concentrate, it's a different meal and it's better." Hot pizza defender: literally vibrating. Judge delivers a split verdict that satisfies no one. Perfect.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Binary Debate</span><span class="pill">Team Assignment</span> — Two clear sides = two groups of commenters. Equal comment distribution keeps the post alive longer.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">this community is divided. healing begins in the comments. 🍕🥶🔥</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">🥶 cold or 🔥 hot — choose your team</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Great Señors Debates" — monthly binary pizza arguments in debate show format</div></div>
+</div>
+
+<div class="card"><div class="cn">073</div><div class="ch">Is a Calzone Just a <em>Folded Pizza</em>? This Has Gone Too Far.</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Employee presents the folded-pizza theory. Argues it philosophically, structurally, culinarily. Then makes a calzone in real time and folds it dramatically, saying "see you next time, pizza." The calzone people in the comments are outraged. The fold-theory people are vindicated.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Food Identity Tribalism</span><span class="pill">Absurd Philosophy</span> — Calzone identity is surprisingly strong. People who agree with the fold theory share aggressively to start arguments.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we said what we said. 🥙🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Calzone is its own thing vs. just a folded pizza — GO 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Taxonomies" — classifying food items controversially: is a hot dog a sandwich? Is pasta a pizza?</div></div>
+</div>
+
+<div class="card"><div class="cn">074</div><div class="ch">The <em>"Correct" Number of Slices</em> to Eat. We Have Opinions.</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Establish "acceptable" slice counts via a formal Señors advisory: 1–2 = you're at a work function and judging everyone; 3–4 = correct; 5–6 = you know something we don't; 7+ = we have questions but also respect. Each tier has a character profile.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Permission + Judgment Humor</span><span class="pill">Classification Identity</span> — The 7+ crowd is loud and the 1-2 crowd is defensive. Perfect comment dynamics.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">no judgment. some judgment. all judgment. 🍕🍕🍕🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Confess your number. We won't tell anyone (we will). 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Standards" — monthly pizza consumption guidelines delivered with fake authority</div></div>
+</div>
+
+<div class="card"><div class="cn">075</div><div class="ch">We Asked a <em>Nutritionist</em> to Review Our Menu. Their Face Said Everything.</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Bring in an actual (or skit) nutritionist to review the menu with full professional integrity. They find things they like (tomatoes, protein, community value). Things that give them pause. They eat a slice at the end anyway. "I'll allow it. Occasionally." Honest, funny, and respectful to both pizza and nutrition.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Authority Subversion</span><span class="pill">Guilt Relief</span> — Getting a "professional" to acknowledge pizza gives people permission. The nutritionist eating it is the brand's victory lap.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">everything in moderation. especially moderation. 🥗🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What did the nutritionist get right? Wrong? Debate below 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Under the Microscope" — different professionals (therapist, engineer, philosopher) review the menu through their lens</div></div>
+</div>
+
+<div class="card"><div class="cn">076</div><div class="ch">Thin Crust vs. Thick Crust: <em>We're Choosing Sides</em> and We're Sorry</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Staff vote, live on camera. The final tally is split in a way that creates maximum drama. One person abstains "on principle." That person becomes the most controversial figure in Señors history. The video ends without a winner. The internet must decide.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Democratic Content</span><span class="pill">Unresolved Tension</span> — Leaving the debate open means the comments section becomes the resolution. People feel compelled to cast a "real" vote below.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the vote is tied. the people must decide. 🗳️🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Thin 🥟 or Thick 🍞 — cast your vote below</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Vote" — regular community polling content, builds habitual engagement around brand decisions</div></div>
+</div>
+
+<div class="card"><div class="cn">077</div><div class="ch">We Asked 50 People: What's the <em>Most Disrespectful</em> Pizza Topping Combo?</div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Man-on-the-street. Pure answers. One person says "corn." One describes a 12-topping monstrosity with genuine trauma on their face. An older gentleman simply says "banana" and walks away. The final answer is something no one expected from an otherwise respectable-looking person.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Disgust/Humor</span><span class="pill">Real People Content</span> — The unexpected answers from "normal-looking" people are the comedy. Highly shareable because people want to test their friends with the question.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">London has seen things. London has eaten things. 😰🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What's yours? Drop the combo below. No shame. (Shame.) 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "London's Most Wanted (Food Crimes)" — monthly food crime investigations in the city</div></div>
+</div>
+
+<div class="card"><div class="cn">078</div><div class="ch">Ranch vs. Garlic Sauce: <em>The Señors Civil War Begins</em></div><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Two employees represent their sauce in a formal debate with prepared arguments and emotional appeals. Ranch: American comfort, familiar, crowd-pleasing. Garlic: Italian heritage, bold, uncompromising. Neither wins. A poll runs 48 hours. Results announced with the gravitas of an election.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Condiment Tribalism</span><span class="pill">Formal Absurdity</span> — The formal debate format elevates the absurdity. Both camps are vocal and uncompromising.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the only election that matters this year. 🗳️🧄</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Ranch 🤠 or Garlic 🧄 — vote in the poll above, share your answer below</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Sauce Wars" — bi-annual sauce tournaments, eventual championship with a winner crown ceremony</div></div>
+</div>
+
+<div class="card"><div class="cn">079</div><div class="ch">We Let a <em>Random Algorithm</em> Design Our Next Pizza. It Was Unsettling.</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Spin a wheel for base, sauce, toppings. Film the result appearing in real time. Staff reaction ranges from cautious optimism to visible concern. Make the pizza. Taste it. The result is either chaos or unexpected genius. "The algorithm knows things we don't." Post the full recipe for people to recreate.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Curiosity + Suspense</span><span class="pill">Participatory Chaos</span> — People tune in to see if chaos resolves into something good. The shareable recipe is the retention tool.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we gave up control. the wheel decided. we regret nothing. 🎡🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Would you order the Algorithm Pizza? 🤔 tell us below</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Monthly series: "The Algorithm Special" — if popular, it goes on the menu as a limited item</div></div>
+</div>
+
+<div class="card"><div class="cn">080</div><div class="ch">We Announced We're <em>Removing Pepperoni</em> From the Menu (We're Not)</div><span class="badge bd">DEBATE 🔥</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Dramatic "announcement" video. Somber music. "After careful consideration..." The comment section explodes before they finish the sentence. Follow-up: "We were not removing pepperoni. That was a test. London: you passed." Close-up of pepperoni being placed on a pizza. Redemption arc complete.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Loss Aversion</span><span class="pill">Relief Arc</span> — The threat of losing something beloved is more motivating than its presence. The follow-up relief creates a positive brand moment.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">pepperoni stays. London stays. we stay. 🫡🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What's the one Señors item we could NEVER remove? 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Scares" — occasional "what if we removed X" content that always resolves into a love letter to the menu item</div></div>
+</div>
+
+</div></section>
+
+<!-- ═══ CAT 5: BRAND BUILDING ═══ -->
+<section id="cat5">
+<div class="sh"><div class="sn">05</div><div><div class="st">Category Five</div><div class="stitle">Brand Building &amp; Character Content</div><p class="sdesc">Where Señors stops being a pizza place and becomes a world — characters, lore, inside jokes, rituals, and an identity viewers want to belong to.</p></div></div>
+<div class="grid">
+
+<div class="card"><div class="cn">081</div><div class="ch">Meet the Crew: <em>Full Personality Profiles</em> for Every Staff Member</div><span class="badge bc">CHARACTER ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Each staff member gets a 30-second "character introduction" styled like a reality show cast reveal: name, role, one strong pizza opinion, one chaotic personal fact. "This is Marco. He believes thin crust is a lifestyle. He has strong opinions about LTC bus route 13. He will not elaborate." Viewers quickly develop favorites.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Character Investment</span><span class="pill">Reality TV Psychology</span> — Once viewers have a "favourite" employee, they follow the account to keep up with their character.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the cast. the crew. the people making your 2am possible. 🎬</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Who's your favourite so far? Vote below 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Foundation content: builds the roster of brand characters all future series revolve around. New hires get character introductions. Departing staff get "farewell episodes."</div></div>
+</div>
+
+<div class="card"><div class="cn">082</div><div class="ch">Señor Himself: <em>Creating the Brand Mascot</em> Character No One Asked For</div><span class="badge bc">CHARACTER ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Introduce "Señor" — a fictional character who technically founded the pizza place but has strong, unverified opinions about everything. Voiced through text overlays and occasional costume appearances. He believes: the correct topping is always more. London Ontario is the center of the universe. He is never seen fully. His presence is felt.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Brand Mythology</span><span class="pill">Mysterious Authority</span> — A deliberately mysterious mascot becomes a running joke the audience is in on. "Señor says" becomes cultural shorthand.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">Señor has spoken. as always. 🎩🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What would you ask Señor? Drop your question 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Permanent character: infinite content, potential for merch, stickers, a "Señor says" series, and eventually a physical mascot costume for events</div></div>
+</div>
+
+<div class="card"><div class="cn">083</div><div class="ch">The <em>Señors Lore</em> — Deep Mythology of a Pizza Place That Did Not Need This</div><span class="badge bc">CHARACTER ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Build out the "official lore" of Señors over time. The oven has a name. The first dough recipe was discovered under dramatic circumstances. There is a "wall of legends" — regulars who achieved legendary status. All presented with complete earnestness. Believers and skeptics both engage heavily.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">World-Building</span><span class="pill">Cult Brand Mechanics</span> — Cults and fandoms are built on shared mythology. Inside knowledge = belonging.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">you weren't there. but you should have been. 📜🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Follow to learn the full lore. This is just the beginning. 👁️</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Infinite lore expansion — each content piece adds to the mythology. Eventually fans document and discuss it independently.</div></div>
+</div>
+
+<div class="card"><div class="cn">084</div><div class="ch">Things We Say at Señors That Would Be <em>Deeply Weird</em> Anywhere Else</div><span class="badge bc">INSIDE JOKE</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Quick-fire list of actual or dramatized in-store phrases with "normal world" translations. "The cheese is melting." Normal in a pizza shop. In an office: someone calls HR. "The oven's at 450, who touched the dial?" Normal at Señors. Everywhere else: a crime scene opener.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Inside Humor</span><span class="pill">Community Inclusion</span> — Inside jokes create a community. Knowing the joke means you belong.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">context matters. most of the time. 🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What does your workplace say that would sound weird outside? 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Dictionary" — builds the brand's own language over time, creates genuine inside culture</div></div>
+</div>
+
+<div class="card"><div class="cn">085</div><div class="ch">The <em>Unspoken Rules</em> of Señors Pizza — A Field Guide</div><span class="badge bc">INSIDE JOKE</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Present the unwritten rules of Señors culture: "Never order from us sober before midnight on a Friday. That's not what we're for." "If you say 'surprise me' you get the chef's special. You didn't know there was a chef's special." Delivered as official brand policy.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">In-Group Knowledge</span><span class="pill">Brand Personality</span> — The rules reveal character and make viewers feel they know something exclusive. Sharing the rules onboards new customers into the culture.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">consider yourself briefed. 📋🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What rule did we miss? Add yours below 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Field Guide" — expanding list of rules added seasonally, evergreen discovery piece for new followers</div></div>
+</div>
+
+<div class="card"><div class="cn">086</div><div class="ch">Staff vs. Staff: <em>The Great Pizza Competition</em> No One Will Win Peacefully</div><span class="badge bc">CHARACTER ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Each staff member creates their own "signature pizza" using the shop's ingredients. A panel of mystery judges blind taste tests them. The scoring is chaotic, the beef is real (staged), and the winner gets a very small dollar-store trophy presented with full ceremony. The loser's face tells the whole story.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Personality Competition</span><span class="pill">Viewer Allegiance</span> — Viewers pick sides based on their favorite staff character. Regulars who are judges become minor characters too.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">only one can win. everyone else loses gracefully. 🏆🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Whose pizza would YOU try? Vote for your pick 🍕</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual event series: "The Señors Championship" — builds anticipation, creates staff rivalries viewers follow season to season</div></div>
+</div>
+
+<div class="card"><div class="cn">087</div><div class="ch">The <em>Señors Loyalty Program</em> — But Make It Completely Unhinged</div><span class="badge bc">INSIDE JOKE</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Announce a "new loyalty program" with absurd tiers. Bronze: you exist. Silver: you've ordered 10 times and we recognize your voice on the phone. Gold: you are mentioned in staff meetings by name. Platinum: Señor himself knows who you are. Diamond: you have no name. You are simply "The Regular." Come in and find out.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Gamification</span><span class="pill">Status Humor</span> — Absurd tier names make status both aspirational and ironic — Gen Z's sweet spot. People want to reach the unhinged top tier.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">rewards for the real ones. you know who you are. 🥇🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What tier are you? Be honest. 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Loyalty Check-Ins" — regularly update where community members are in the tier system, make the chase the ongoing content</div></div>
+</div>
+
+<div class="card"><div class="cn">088</div><div class="ch">When the <em>Most Loyal Customer</em> Doesn't Show Up for a Week</div><span class="badge bc">CHARACTER ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Skit. A regular hasn't appeared for 6 days. Staff is visibly affected. "His seat is empty." A candle is lit on the counter (not really). Day 7: he walks in. The staff erupts. Everything is fine. He just went on vacation. No one is allowed to go on vacation anymore.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Parasocial Warmth</span><span class="pill">Loyalty Validation</span> — Shows that regulars are genuinely noticed and missed. Every regular watching thinks "they'd notice if I didn't come in" — which creates motivation to keep coming back.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">you matter here. never forget that. 🍕❤️</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Are you a regular? Tag yourself. We see you. 👁️</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Regulars" — ongoing documentation of the brand's relationship with regulars, builds a genuine community cast</div></div>
+</div>
+
+<div class="card"><div class="cn">089</div><div class="ch">Employee Friendship Test: <em>Do They Actually Know Each Other?</em></div><span class="badge bc">CHARACTER ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Pair up staff members. Ask questions about each other: What's their go-to order? Their biggest pizza take? What do they do when not here? Answers reveal either surprising closeness or hilariously poor knowledge of someone they see every shift. "I've worked with her for 8 months. I don't know her last name."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Relatable Workplace</span><span class="pill">Character Chemistry</span> — Watching real people reveal their knowledge of each other is endlessly watchable. Gaps and surprises are the content.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">8 months. same shifts. strangers. 😂🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Test your coworker: what do they actually know about you? 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "How Well Do We Know Each Other?" — quarterly with different staff pairs, eventually includes long-term regulars as guests</div></div>
+</div>
+
+<div class="card"><div class="cn">090</div><div class="ch">We Created a <em>Señors Handshake</em>. Every Regular Has to Learn It.</div><span class="badge bc">INSIDE JOKE ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Develop and teach an official Señors handshake — elaborate, specific, slightly ridiculous. Tutorial video first: slow-motion breakdown of each step, narrated seriously. Then: catch customers in the shop and teach it to them. Best and worst executions compiled. Everyone who knows it is officially "in." It evolves slightly over time.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Ritual Creation</span><span class="pill">Belonging Signal</span> — Creating a handshake literally creates a ritual that defines insiders. People who learn it have physically performed an act of brand belonging.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">you're either in or you're still learning. 🤝🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Come in and learn the handshake. It's mandatory now. (It's not. But come in.) 🍕</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">The handshake evolves seasonally — "Summer 2025 update" — becomes a brand tradition with version history</div></div>
+</div>
+
+<div class="card"><div class="cn">091</div><div class="ch">A Day in the Life of the <em>Señors Pizza Oven</em></div><span class="badge bc">CHARACTER</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">First-person perspective of the oven. Narrated as if it has consciousness. "8:47am: I am cold and no one appreciates me yet. 11am: First pizza. The pepperoni makes eye contact. We have an understanding. 2am: I have seen things tonight I will carry forever." Deadpan oven diary. Deeply funny for no rational reason.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Anthropomorphism</span><span class="pill">World Expansion</span> — The oven as a character extends the brand universe beyond humans. Inanimate objects with inner lives is a timeless comedy format.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">the oven has feelings. we don't talk about it enough. 🔥📓</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">What do you think the oven is thinking right now? 🔥👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Señors Equipment Diaries" — each kitchen tool gets its own diary. The cheese grater has unresolved feelings. The dough hook is competitive.</div></div>
+</div>
+
+<div class="card"><div class="cn">092</div><div class="ch">Señors Reacts to <em>Food Influencers</em> Reviewing Competitors (Silently)</div><span class="badge bc">BRAND</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Play a competitor food review on a phone in the shop. Staff watches silently. No commentary. Just reactions: a raised eyebrow, a slow nod that communicates nothing, someone walking away, someone who suddenly becomes very busy with unrelated tasks. The ending: a Señors pizza appears on screen. That's it.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Confident Restraint</span><span class="pill">Brand Positioning</span> — Saying nothing is louder than any take. The silence communicates supreme confidence without a single word of trash talk.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">👀</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">We say nothing. You say something. 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "The Señors Reaction" — react to any food media with strategic silence, builds a reputation for composed confidence</div></div>
+</div>
+
+<div class="card"><div class="cn">093</div><div class="ch">Staff Accidentally Becomes <em>Local Celebrities</em>. They Handle It Poorly.</div><span class="badge bc">CHARACTER ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">After some viral content, a staff member gets recognized at the Dundas Market. They are not prepared. The recognition happens three more times that day. By the end they're signing a pizza box for a Western student, looking slightly unhinged with a permanent smile. "We didn't ask for this. We also didn't ask for Homecoming traffic, and yet."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Celebrity Arc Humor</span><span class="pill">Relatability of Unwanted Fame</span> — Watching someone who is just good at their job deal with unexpected fame is charming and deeply relatable.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">London knows now. and we are not the same. 🍕⭐</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Have you seen a Señors staff member in the wild? 👀 DM the story</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Series: "Life as a Señors Celebrity" — ongoing documentation of staff's reluctant local fame as the brand grows</div></div>
+</div>
+
+<div class="card"><div class="cn">094</div><div class="ch">The <em>Señors Pizza Cinematic Universe</em> — Official Announcement Trailer</div><span class="badge bc">BRAND ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Genuine Marvel-style announcement trailer for the "SPCU." Cross-referencing all series content as if they're interconnected: The Intern's arc collides with The Psychic's prophecy, which was somehow predicted by Señor in Episode 3 of After Dark. Dramatic music. Slow-mo clips from all previous content. Text: "Season 2. Coming."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Universe Payoff</span><span class="pill">Investment Reward</span> — For existing viewers, this is the ultimate reward. For new viewers, it creates the most compelling FOMO possible.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">you thought it was just pizza. it was never just pizza. 🎬🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">New to the SPCU? Start here 👇 [link to first Intern episode in bio]</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual "Season Finale" — brings all content threads together, creates genuine anticipation cycles, positions Señors as a storytelling brand unlike any other pizza shop anywhere</div></div>
+</div>
+
+<div class="card"><div class="cn">095</div><div class="ch">Every <em>Employee Leaves a Review</em> of Their Own Shift</div><span class="badge bc">CHARACTER</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">At end of shift, each employee writes a Google-style "review" of their own performance. "4/5 stars. I was good until the 11pm rush when I became a completely different person. The cheese pull was excellent. The attitude needed work. Would recommend on a quiet Tuesday." Pure self-aware comedy.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Self-Awareness</span><span class="pill">Personality Revelation</span> — Reviews reveal character through tone. Viewers develop strong opinions about whose are funniest.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we hold ourselves to high standards. sometimes. ⭐⭐⭐⭐🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Leave your own shift review in the comments 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Weekly series: "The Self-Review" — builds audience familiarity with each staff character through their own voice</div></div>
+</div>
+
+<div class="card"><div class="cn">096</div><div class="ch">We Let a <em>Regular Customer</em> Run the Instagram for a Day</div><span class="badge bc">BRAND</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">One loyal, well-known regular gets the keys to the account for 24 hours. They document their day: wake up thinking about Señors, arrive at the shop, order their usual, give a tour, recommend things to other customers, post a Story of them at home eating Señors at 11pm. Their version of the brand is authentic, different, and deeply charming.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Social Proof at Its Purest</span><span class="pill">Community Elevation</span> — A real customer advocating for the brand is the most credible content imaginable. Giving them the platform shows brand confidence.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">today, the account belongs to London. we'll be back tomorrow. 🍕📱</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Want the account for a day? DM us. We're picking someone. 📲</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Quarterly "Señors Account Takeover" — builds a roster of London community voices tied to the brand</div></div>
+</div>
+
+<div class="card"><div class="cn">097</div><div class="ch">What Happens When We <em>Close for One Night</em> — Documented</div><span class="badge bc">CHARACTER</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">For one unannounced night, Señors closes early. Film people who arrive to a dark shop. The confusion. The gentle devastation. The group of three who stand there for a full 30 seconds before accepting reality. One person sits on the step anyway. "We needed a break. You're okay. We'll be back tomorrow."</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Loss Awareness Creates Appreciation</span><span class="pill">Absence Marketing</span> — The content of people discovering the closed shop is more powerful brand proof than any ad.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">we needed one night. you reminded us why we show up every other. 🌙🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Have you ever shown up and found us closed? Tell the story 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual "Rest Night" event — one planned closure per year, always followed by a gratitude post. The anticipated absence becomes a brand tradition.</div></div>
+</div>
+
+<div class="card"><div class="cn">098</div><div class="ch">The <em>Señors Time Capsule</em> — Sealed Today, Opened in One Year</div><span class="badge bc">CHARACTER</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">Film the creation of a Señors time capsule: a current menu, a team photo, a note from "Señor," a handwritten message from the most loyal regular. It is sealed and stored. A year later, it is opened on camera with the same team — whoever is still there. Whatever changed is the story.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Temporal Investment</span><span class="pill">Continuity Narrative</span> — Planting a time capsule creates genuine anticipation for a future video. The one-year gap builds loyalty by design.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">sealed today. opened in one year. see you on the other side. 📦🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Follow now so you're here when we open it. ⏳</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual capsule series — each year's opening becomes its own event and a new one is immediately sealed. Creates a rolling archive of Señors history that grows richer every year.</div></div>
+</div>
+
+<div class="card"><div class="cn">099</div><div class="ch">We Let Every Regular Write <em>One Rule</em> for the Next Month</div><span class="badge bc">BRAND</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">An open call: regulars DM or comment one rule they want Señors to follow for a single month. Rules are voted on by the community. The top three are announced and genuinely followed: "Every Friday, staff must greet people with a nickname." "If you ask for 'the usual' and we know it, the order is free." Document what happens.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Community Ownership</span><span class="pill">Co-Creation</span> — When people make the rules, they come in to see if they're being followed. Every rule-maker becomes an invested stakeholder in Señors for that month.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">your rules. our shop. for 30 days. make it interesting. 📋🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Drop your rule below. Top vote-getter wins. 👇</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Monthly series: "Rule of the Month" — infinite rotating content, builds a governance mythology, and occasionally a rule becomes permanent because it genuinely worked.</div></div>
+</div>
+
+<div class="card"><div class="cn">100</div><div class="ch">Idea 100: <em>We Tell London</em> What Comes Next</div><span class="badge bc">BRAND ★</span><div class="div"></div>
+<div class="fl"><div class="lb">Concept</div><div class="fv">The culminating content piece. Not a product launch. A direct-to-camera statement: where they've been, what they've learned from the city, what they're building next. Honest. No corporate language. "London, you've been ordering from us since before we knew what we were doing. We think we know now. Here's what's coming." Then deliver on every promise — each one becomes future content.</div></div>
+<div class="fl"><div class="lb">Psychology</div><div class="fv"><span class="pill">Gratitude Loop</span><span class="pill">Future Investment</span><span class="pill">Trust Capital</span> — Brands that speak to their audience as partners build something no ad budget can buy. This video acknowledges that every order and every comment has been seen.</div></div>
+<div class="fl"><div class="lb">Target Audience</div><div class="fv">Everyone who has ever interacted with the brand — this video is for them specifically</div></div>
+<div class="fl"><div class="lb">Filming Style</div><div class="fv">Single camera, no frills, direct address. Filmed in the shop after close. Warm practical lighting. The city visible through the window behind them.</div></div>
+<div class="fl"><div class="lb">Caption</div><div class="fv"><div class="cap">100 ideas. one city. everything we do is for you, London. here's what's next. 🍕</div></div></div>
+<div class="fl"><div class="lb">CTA</div><div class="fv">Tell us what YOU want to see from Señors next. We're reading every comment. 👇</div></div>
+<div class="fl"><div class="lb">Local Tie-In</div><div class="fv">London Ontario is not the backdrop — it's the audience. This video names the city, the street, the community. Hyper-local by design, emotionally universal in execution.</div></div>
+<div class="fl"><div class="lb">Scalability</div><div class="fv hi">Annual "State of Señors" address — the brand talks directly to London every year, naming what changed, what stayed, and what's coming. Over time it becomes the most anticipated post of the year — not because of the content, but because of the relationship it represents.</div></div>
+</div>
+
+</div></section>
+
+<footer>
+  <h2>Señors Pizza</h2>
+  <p>100 ideas. One city. Let's get to work. 🍕</p>
+</footer>
+
+</body>
+</html>
